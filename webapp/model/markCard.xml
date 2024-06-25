@@ -1,0 +1,23 @@
+<StudentMarkCard>
+   <StudentData>
+       <sNo>1</sNo>
+       <TypeOfDegree>B.Tech</TypeOfDegree>
+       <Branch>E.C.E</Branch>
+       <passOutYear>2023</passOutYear>
+       <Percentage>7.05</Percentage>
+   </StudentData>
+   <StudentData>
+       <sNo>2</sNo>
+       <TypeOfDegree>Intermediate</TypeOfDegree>
+       <Branch>MPC</Branch>
+       <passOutYear>2019</passOutYear>
+       <Percentage>9.73</Percentage>
+   </StudentData>
+   <StudentData>
+       <sNo>3</sNo>
+       <TypeOfDegree>SSC</TypeOfDegree>
+       <Branch>10th</Branch>
+       <passOutYear>2017</passOutYear>
+       <Percentage>8.7</Percentage>
+   </StudentData>
+</StudentMarkCard>

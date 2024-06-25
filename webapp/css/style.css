@@ -1,0 +1,43 @@
+/* Enter your custom styles here */
+.cell{
+    background-color: pink;
+}
+
+.lab{
+    color:#fa2d64;
+}
+.tex{
+    color:#2dabfa;
+}
+
+.sapMTableTH {
+    background:skyblue;
+    border-bottom: 1px solid red;
+    vertical-align: middle;
+
+}
+
+.sapMTitleStyleAuto {
+    font-size: 1.12rem;
+}
+.sapMITBTextOnly .sapMITBFilterDefault .sapMITBText {
+    color: #d414f3;
+    text-shadow: none;
+}
+.sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected .sapMITBText{
+    color: #02ff52;
+}
+.sapMIBar-CTX .sapMTitle {
+    color: brown;
+    text-shadow: none;
+    /* width: 100%; */
+}
+.sapMTitleStyleAuto {
+    font-size: 1.12rem;
+}
+.sapMObjectIdentifierTitle .sapMLnk, .sapMOITitleActive .sapMLnk {
+    color: rgb(230, 97, 119);
+}
+.sapMObjectIdentifierText .sapMText, .sapMObjectIdentifierText, .sapMObjectIdentifier {
+    color:rgb(89, 199, 243);
+}

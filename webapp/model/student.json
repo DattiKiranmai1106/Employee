@@ -1,0 +1,18 @@
+{
+"student":[{
+    "name":"Datti Kiranmai",
+    "age":21,
+    "gender":"FeMale",
+    "Address":"3-41,j.m.valasa,pincode:535526",
+    "phoneNo":9521563255,
+    "email":"kirandatti@gmail.com"
+},{
+    "name":"Datti Misra",
+    "age":19,
+    "gender":"FeMale",
+    "Address":"3-41,j.m.valasa,pincode:535526",
+    "phoneNo":8684563255,
+    "email":"misradatti@gmail.com" 
+}
+]
+}

@@ -1,0 +1,116 @@
+<mvc:View controllerName="com.sap.kt.emp.employee.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:f="sap.ui.layout.form" 	xmlns:l="sap.ui.layout"  xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" class="pag">
+        <content >
+          <IconTabBar
+		    id="idIconTabBarNoIcons"
+		    expanded="{device>/isNoPhone}"
+		    class="sapUiResponsiveContentPadding">
+		    <items>
+		    	<IconTabFilter text="{i18n>employee1}" key="info" >
+                     <f:SimpleForm id="SimpleFormToolbar1"
+			            editable="true"
+			            layout="ResponsiveGridLayout"
+			            labelSpanXL="4"
+			            labelSpanL="3"
+			            labelSpanM="4"
+			            labelSpanS="12"
+			            adjustLabelSpan="false"
+			            emptySpanXL="0"
+			            emptySpanL="4"
+			            emptySpanM="0"
+			            emptySpanS="0"
+			            columnsXL="2"
+			            columnsL="1"
+			            columnsM="1"
+			            singleContainerFullSize="false"
+			            ariaLabelledBy="Title1" >
+			            <f:content>
+			            	<Label class="lab" text="{i18n>employeeName}" />
+			            	<Text class="tex" text="{i18n>employeeNa}"/>
+			            	<Label class="lab" text="{i18n>employeeId}" />
+			            	<Text class="tex" text="60028346179"/>
+                            <Label class="lab" text="{i18n>employeeEmail}" />
+			            	<Text class="tex" text="{i18n>employeeEm}"/>
+			            </f:content>
+		             </f:SimpleForm>
+                    
+		    	</IconTabFilter>
+		    	<IconTabFilter text="{i18n>employee2}" key="attachments">
+		    		<f:SimpleForm id="SimpleFormToolbar2"
+			            editable="true"
+			            layout="ResponsiveGridLayout"
+			            labelSpanXL="4"
+			            labelSpanL="3"
+			            labelSpanM="4"
+			            labelSpanS="12"
+			            adjustLabelSpan="false"
+			            emptySpanXL="0"
+			            emptySpanL="4"
+			            emptySpanM="0"
+			            emptySpanS="0"
+			            columnsXL="2"
+			            columnsL="1"
+			            columnsM="1"
+			            singleContainerFullSize="false"
+			            ariaLabelledBy="Title1" >
+			            <f:content>
+			            	<Label class="lab" text="{i18n>employee5}" />
+			            	<Text class="tex" text="21"/>
+			            	<Label class="lab" text="{i18n>employee6}" />
+			            	<Text  class="tex" text="{i18n>employee9}"/>
+                            <Label class="lab" text="{i18n>employee7}" />
+			            	<Text  class="tex" text="9390541718"/>
+                            <Label class="lab" text="{i18n>employee8}" />
+			            	<Text class="tex" text="3-41,laccireddi street,j.m.valasa,pincode:535526"/>
+			            </f:content>
+		             </f:SimpleForm>
+		    	</IconTabFilter>
+		    	<IconTabFilter text="{i18n>employee3}" keys="notes">
+				  <Button text="GetData" press="function1()"></Button>
+                  <Table id="idStudentTable" alternateRowColors="false" >
+		            <columns >
+			            <Column  >
+			            	<Text text="{i18n>employee10}" />
+			            </Column>
+			            <Column>
+			            	<Text text="{i18n>employee11}" />
+			            </Column>
+			            <Column>
+			            	<Text text="{i18n>employee12}" />
+			            </Column>
+			            <Column >
+			            	<Text text="{i18n>employee13}" />
+			            </Column>
+			            <Column>
+			            	<Text text="{i18n>employee14}" />
+			            </Column>
+		            </columns>
+                    <items>
+                        <ColumnListItem id="colId"  class="cell" press="">
+                            <cells class="fun">
+                               <Text text="{SNo}"  />
+                               <Text text="{TypeOfDegree}"  />
+                               <Text text="{Branch}"  />
+                               <Text text="{PassOutYear}"  />
+                               <Text text="{Percentage/CGPA}"  />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                  </Table>  
+		    	</IconTabFilter>
+                <IconTabFilter text="{i18n>employee4}" key="notes">
+
+                   <l:VerticalLayout width="100%">
+		                <ObjectIdentifier title="{i18n>employee15}" text="{i18n>employee17}" titleActive="true" titlePress="titleClicked"/>
+	                </l:VerticalLayout>
+                    <l:VerticalLayout>
+		                <ObjectIdentifier title="{i18n>employee16}" text="{i18n>employee18}" titleActive="true" titlePress="titleClicked"/>
+	                </l:VerticalLayout>
+                </IconTabFilter>
+		    </items>
+	      </IconTabBar>
+        </content>
+    </Page>
+</mvc:View>

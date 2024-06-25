@@ -1,0 +1,21 @@
+{
+"markCard": [{
+    "SNo": "1",
+    "TypeOfDegree": "B.Tech",
+    "Branch": "E.C.E",
+    "PassOutYear":2023,
+    "Percentage/CGPA":7.05
+}, {
+    "SNo": "2",
+    "TypeOfDegree": "InterMediate",
+    "Branch":"MPC",
+    "PassOutYear":2019,
+    "Percentage/CGPA":9.73
+}, {
+    "SNo": "3",
+    "TypeOfDegree": "SSC",
+    "Branch": "10th",
+    "PassOutYear":2017,
+    "Percentage/CGPA":8.7
+}]
+}

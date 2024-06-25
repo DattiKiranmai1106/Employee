@@ -1,0 +1,28 @@
+<studentForm>
+    <student>
+        <name>Datti Kiranmai</name>
+        <age>21</age>
+        <gender>FeMale</gender>
+        <address>
+            <street>3-41</street>
+            <city>vizingaram</city>
+            <state>Andhra Pradesh</state>
+            <zipcode>535526</zipcode>
+        </address>
+        <phone>9874561230</phone>
+        <email>kirandatti@gmail.com</email>
+    </student> 
+    <student>
+        <name>Datti misra</name>
+        <age>19</age>
+        <gender>FeMale</gender>
+        <address>
+            <street>3-41</street>
+            <city>vizingaram</city>
+            <state>Andhra Pradesh</state>
+            <zipcode>535526</zipcode>
+        </address>
+        <phone>8865475951</phone>
+        <email>misradatti@gmail.com</email>
+    </student> 
+</studentForm>
